@@ -1,0 +1,26 @@
+.Exhibit {background-color: #6400e69f;
+    padding: 0vw 2.1vw 2.1vw 0vw;
+    float: center;
+    border: 0.3vw solid #506600;
+    margin: 1vw;
+    text-align: center;
+   
+}
+
+.ExhibitHeader {float:center;
+    font-weight: bold;
+    color:#000 ;
+    font-size: 2vw; 
+}
+
+.ExhibitChild {font-size: 2vw;
+    color: #6e6c08;
+    font-weight: bold;
+    background-color: #80ecff;
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+    border: 0.3vw solid #380066;
+    text-align: justify;
+    border-radius: 2vw;
+    margin: 0.7vw;
+    
+}
