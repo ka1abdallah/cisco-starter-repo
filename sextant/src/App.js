@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './banner';
 import Exhibit from './Exhibit';
+import Latency from './Latency';
 import './App.css';
 import ShowIPaddress from './ShowIPaddress';
 class App extends React.Component {
@@ -14,7 +15,9 @@ class App extends React.Component {
                 <Exhibit name="Your Public IPv6 Address" >
                     <ShowIPaddress url='https://api64.ipify.org?format=json'/>
                 </Exhibit>
-                 
+                <Exhibit name="Transmitted Packet Latency">
+                   <Latency />
+                 </Exhibit>
             </div>
         );
     }
